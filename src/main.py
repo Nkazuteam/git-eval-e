@@ -4,7 +4,7 @@ def fizzbuzz(n):
         if i % 15 == 0:
             results.append("fizzbuzz")
         elif i % 3 == 0:
-            results.append("Fizz")
+            results.append("fizz")
         elif i % 5 == 0:
             results.append("Buzz")
         else:
